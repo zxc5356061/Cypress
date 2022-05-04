@@ -12,3 +12,4 @@ Cypress Learning
 7. npm install cypress
 8. npx cypress open
 ```
+[[Cypress 1] E2E Testing 初探](https://medium.com/hannah-lin/cypress-e2e-testing-%E5%88%9D%E6%8E%A2-a10eca3c0cf7)<br/>
