@@ -19,7 +19,8 @@ Cypress Learning
 npx cypress run --spec path/fileName.js  // 跑在 terminal
 EX: npx cypress run --spec C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\integration\ProductionArea/production_area.spec.js
 ```
-![runTestFile](https://user-images.githubusercontent.com/96610052/166855857-834418aa-908f-4ef4-a249-68d058e7f37e.png)
+![runTestFile](https://user-images.githubusercontent.com/96610052/166856299-8827cc9f-35de-4837-b7b4-2160cffa9127.png)
+
 
 ## Create a Test File
 ```
