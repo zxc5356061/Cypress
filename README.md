@@ -17,8 +17,8 @@ Cypress Learning
 ```
 npx cypress run --spec path/fileName.js  // 跑在 terminal
 EX: npx cypress run --spec C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\integration\ProductionArea/production_area.spec.js
-![runTestFile](https://user-images.githubusercontent.com/96610052/166855857-834418aa-908f-4ef4-a249-68d058e7f37e.png)
 ```
+![runTestFile](https://user-images.githubusercontent.com/96610052/166855857-834418aa-908f-4ef4-a249-68d058e7f37e.png)
 
 
 [[Cypress 1] E2E Testing 初探](https://medium.com/hannah-lin/cypress-e2e-testing-%E5%88%9D%E6%8E%A2-a10eca3c0cf7)<br/>
