@@ -14,6 +14,24 @@ Cypress Learning
 9. npm install touch-cli -g
 10. npx cypress open
 ```
+## Install Typescript
+```
+1. cd C:\Users\P22029\source\repos\IFactory-MOM-UI
+2. npm node --version
+3. npm install -g ts-node
+4. npm install --save-dev typescript
+5. Create "tsconfig.json" at "C:\Users\P22029\source\repos\IFactory-MOM-UI"
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts"]
+}
+6. Create new "SampleTS.ts" file at "C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\integration"
+7. npx cypress run and test "SampleTS.ts"
+```
 
 ## Run Test
 ```
