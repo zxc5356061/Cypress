@@ -8,10 +8,11 @@ Cypress Learning
 3. cd C:\Users\P22029\source\repos
 4. git clone https://github.com/EI-Stack/IFactory-MOM-UI.git
 5. cd C:\Users\P22029\source\repos\IFactory-MOM-UI
-6. npm install(自動根據package.jason安裝套件)
-7. npm install cypress
-8. npm install touch-cli -g
-9. npx cypress open
+6. npm init (Run this command only if package.jason hasn't been created.)
+7. npm install(自動根據package.jason安裝套件)
+8. npm install cypress
+9. npm install touch-cli -g
+10. npx cypress open
 ```
 
 ## Run Test
