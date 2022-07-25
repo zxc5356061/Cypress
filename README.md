@@ -43,8 +43,8 @@ EX: npx cypress run --spec C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\
 
 ## Create a Test File
 ```
-touch {your_project}\cypress\e2e\sample_spec.js
-EX: touch C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e\sample_spec.js
+touch {your_project}\cypress\e2e\Sample.cy.ts
+EX: touch C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e\Sample.cy.ts
 ```
 ### References
 [[Cypress 1] E2E Testing 初探](https://medium.com/hannah-lin/cypress-e2e-testing-%E5%88%9D%E6%8E%A2-a10eca3c0cf7)</br>
