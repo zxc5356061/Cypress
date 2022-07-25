@@ -20,31 +20,31 @@ Cypress Learning
 2. npm node --version
 3. npm install -g ts-node
 4. npm install --save-dev typescript
-5. Create "tsconfig.json" at "C:\Users\P22029\source\repos\IFactory-MOM-UI"
+5. Create "tsconfig.json" at "C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e"
 {
   "compilerOptions": {
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress"]
+    "types": ["cypress", "node"]
   },
   "include": ["**/*.ts"]
 }
-6. Create new "SampleTS.ts" file at "C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\integration"
-7. npx cypress run and test "SampleTS.ts"
+6. Create new "SampleTS.cy.ts" file at "C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e"
+7. npx cypress run and test "SampleTS.cy.ts"
 ```
 
 ## Run Test
 ```
-npx cypress run --spec path/fileName.js  // 跑在 terminal
-EX: npx cypress run --spec C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\integration\ProductionArea/production_area.spec.js
+npx cypress run --spec path/fileName.cy.ts  // 跑在 terminal
+EX: npx cypress run --spec C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e/SampleTS.cy.ts
 ```
 ![runTestFile](https://user-images.githubusercontent.com/96610052/166856299-8827cc9f-35de-4837-b7b4-2160cffa9127.png)
 
 
 ## Create a Test File
 ```
-touch {your_project}/cypress/integration/sample_spec.js
-EX: touch C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\integration\Samples/sample_spec.js
+touch {your_project}\cypress\e2e\sample_spec.js
+EX: touch C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e\sample_spec.js
 ```
 ### References
 [[Cypress 1] E2E Testing 初探](https://medium.com/hannah-lin/cypress-e2e-testing-%E5%88%9D%E6%8E%A2-a10eca3c0cf7)</br>
