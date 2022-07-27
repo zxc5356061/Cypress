@@ -1,7 +1,7 @@
 describe('LoginLogout', () => {
   it('passes', () => {
     //Clean cookies and local storage
-    cy.clearLocalStorage().clearCookies
+    cy.clearLocalStorage().clearCookies()
     
     //Login
     cy.visit('https://ifp-organizer-ifpsdemo-eks005.sa.wise-paas.com/#/signIn')
