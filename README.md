@@ -10,7 +10,7 @@ Cypress Learning
 5. cd C:\Users\P22029\source\repos\IFactory-MOM-UI
 6. npm init (Run this command only if package.jason hasn't been created.)
 7. npm install(自動根據package.jason安裝套件)
-8. npm install cypress
+8. npm install cypress --save-dev
 9. npm install touch-cli -g
 10. npx cypress open
 ```
