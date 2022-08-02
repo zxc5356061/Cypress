@@ -4,7 +4,7 @@ Cypress Learning
 ## Install Cypress
 ```
 1. 安裝node.js
-2. 安裝nvm, 版本切換至14.16.0(for MOM project)
+2. 安裝nvm, 切換node版本至14.16.0(for MOM project)
 3. cd C:\Users\P22029\source\repos
 4. git clone https://github.com/EI-Stack/IFactory-MOM-UI.git
 5. cd C:\Users\P22029\source\repos\IFactory-MOM-UI
