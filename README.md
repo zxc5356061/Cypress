@@ -17,7 +17,7 @@ Cypress Learning
 ## Install Typescript
 ```
 1. cd C:\Users\P22029\source\repos\IFactory-MOM-UI
-2. npm node --version
+2. node --version
 3. npm install -g ts-node
 4. npm install --save-dev typescript
 5. Create "tsconfig.json" at "C:\Users\P22029\source\repos\IFactory-MOM-UI\cypress\e2e"
